@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ar.com.springbasic.beans;
+package ar.com.springbasic.dao;
+
+import ar.com.springbasic.beans.Admin;
 
 /**
  *
  * @author cassisi
  */
-public class Administrador {
-  
-    public void imprimirDireccion(){
-        System.out.println("Direccion xxxx");
-    }
+public interface AdminDao {
+    
+    public boolean save (Admin admin);
     
 }

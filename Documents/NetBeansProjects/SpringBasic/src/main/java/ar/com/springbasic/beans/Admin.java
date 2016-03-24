@@ -50,6 +50,16 @@ public class Admin {
         this.fechaCreacion = fechaCreacion;
     }
 
+    public Admin() {
+    }
+
+    public Admin(String nombre, String cargo, Timestamp fechaCreacion) {
+        this.nombre = nombre;
+        this.cargo = cargo;
+        this.fechaCreacion = fechaCreacion;
+    }
+    
+    
     @Override
     public String toString() {
         return "Administrador{" + "idAd=" + idAd + ", nombre=" + nombre + ", cargo=" + cargo + ", fechaCreacion=" + fechaCreacion + '}';
